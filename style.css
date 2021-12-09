@@ -1,0 +1,124 @@
+body{
+    background-color:#ffffff;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.background-img{
+    background-image: url("./img/navbar-img.png");
+    width:100%;
+    height: 850px;;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Svarga Typeface';
+    src: url('./SvargaTypefacePERSONALUSEONLY-Regular.otf');
+ 
+}
+@font-face {
+    font-family: 'Maragsa';
+    src: url('./Maragsâ.otf');
+ 
+}
+
+.font-SvargaTypeface{
+    font-family:'Svarga Typeface', 'Arial Narrow';
+}
+.font-Maragsa{
+    font-family:'Maragsa', 'Arial Narrow';
+}
+
+.font-Raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-color{
+    background-color: #F29846 !important;
+}
+
+
+.clr-F29846{
+    color: #f29846;
+}
+
+.bord{
+    border: 1px solid #f29846;
+}
+.parent {
+    position: relative;
+    top: 100px;
+    left: 0;
+    max-width: 100%;
+  }
+  .image1 {
+    position: relative;
+    top: 30px;
+    right: 30px;
+   
+  }
+  .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  .image3 {
+    position: relative;
+    top: 30px;
+    left: 70px;
+   
+  }
+  .image4 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+
+  }
+  .image5 {
+    position: relative;
+    bottom: 70px;
+    right: 70px;
+   
+  }
+  .image6 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+
+  }
+  .image7 {
+   position:absolute
+
+
+
+  }
+
+  .clr-FEF8F3{
+      background-color: #FEF8F3;
+      width: 100%;
+      height: 500px;  
+  }
+
+  .grad{
+
+    background: linear-gradient(96.87deg, #F29846 -4.05%, rgba(244, 146, 57, 0.813403) 23.17%, rgba(250, 133, 26, 0.36676) 101.59%, #FF7A00 103.67%);
+    width: 100%;
+    height: 413px;  
+    /* background-image: linear-gradient(to right, red , yellow); */
+  }
+
+
+.mail-btn {
+    position: absolute;
+    top: 5px;
+    right: 160px;
+    width: 150px;
+    height: 40px;
+
+} 
